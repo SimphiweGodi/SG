@@ -176,7 +176,7 @@ section .title::after {
   width: 100%;
   height: 100%;
   background-color: black;
-  background-image: url("/images/mp.png");
+  background-image: url("./images/mp.png");
   background-repeat: no-repeat;
   z-index: -9999;
   background-size: cover;
