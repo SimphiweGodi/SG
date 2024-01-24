@@ -262,6 +262,17 @@ section .title::after {
 }
 
 @media all and (max-width:900px) {
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* background-image: url("./images/home.png"); */
+    background-repeat: no-repeat;
+    z-index: -9999;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
   .services-grid {
     display: -webkit-box;
     display: flex;
