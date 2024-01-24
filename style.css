@@ -262,17 +262,6 @@ section .title::after {
 }
 
 @media all and (max-width:900px) {
-  #particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    background-image: url("./images/hotel.jpg");
-    background-repeat: no-repeat;
-    z-index: -9999;
-    background-size: cover;
-    background-position: 50% 50%;
-  }
   .services-grid {
     display: -webkit-box;
     display: flex;
@@ -739,17 +728,50 @@ footer span a:hover {
 }
 /* responsive media query start */
 @media (max-width: 1104px) {
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url("./images/hotel.jpg");
+    background-repeat: no-repeat;
+    z-index: -9999;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
   .about .about-content .left img {
     height: 350px;
     width: 350px;
   }
 }
 @media (max-width: 991px) {
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url("./images/blackcup.jpg");
+    background-repeat: no-repeat;
+    z-index: -9999;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
   .max-width {
     padding: 0 50px;
   }
 }
 @media (max-width: 947px) {
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url("./images/photographer.jpg");
+    background-repeat: no-repeat;
+    z-index: -9999;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
   .menu-btn{
     display: block;
     z-index: 999;
