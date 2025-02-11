@@ -29,12 +29,12 @@ $(document).ready(function () {
     $(".menu-btn i").toggleClass("active");
   });
   // typing text animation script
-  // var typed = new Typed(".typing", {
-  //   strings: ["Developer", "Designer", "Freelancer"],
-  //   typeSpeed: 100,
-  //   backSpeed: 60,
-  //   loop: true,
-  // });
+  var typed = new Typed(".typing", {
+    strings: ["Web Development", "Graphic Design", "SEO"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+  });
   var typed = new Typed(".typing-2", {
     strings: ["Web Development", "Graphic Design", "SEO"],
     typeSpeed: 90,
